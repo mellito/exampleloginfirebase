@@ -1,0 +1,20 @@
+instalar dependencias
+
+TAILWINDS CSS
+npm install -D tailwindcss postcss autoprefixer para react
+npx tailwindcss init -p
+
+se crea un tailwindws.config.js y dentro de este se edita el array content con esta informacion
+ "./src/**/*.{js,jsx,ts,tsx}",
+
+luego en nuestro main css se agrega esto 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+FIREBASE
+ve a configuracion del proyecto en firebase y luego le das generar app web le das un nombre y luego genra un js para la configuracion
+
+npm i firebase
+
+
